@@ -229,6 +229,7 @@ header span {
 .insta-img,
 .app-download {
   margin: 50px auto;
+  display: grid;
 }
 
 .payment img {
@@ -240,6 +241,7 @@ header span {
   width: 75px;
   padding: 5px;
   cursor: pointer;
+  display: grid;
 }
 
 .app-download img {
