@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/nitu2.jpeg") no-repeat center;
+    background: url("images/nr.png") no-repeat center;
     height: 100vh;
     color: #150101;
     min-height: 500px;
@@ -381,6 +381,7 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+
 /* project section styling*/
 .projects .title::after{
     content: "what I did";
@@ -391,7 +392,6 @@ section .title::after{
     margin-bottom: 10px;
 }
 
-/* teams section styling */
 .projects .title::after{
     content: "who with me";
 }
@@ -420,6 +420,9 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.projects .carousel .card .text p span{
+    color: crimson;
 }
 .projects .carousel .card img{
     height: 150px;
